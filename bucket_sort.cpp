@@ -18,3 +18,4 @@ void bucketSort(float arr[], int n) {
         }
     }
 }// stable not inplace, best and avg n , worst n^2
+// this code works only for floating numbers in range [0,1) 1 not included
