@@ -17,3 +17,4 @@ vector<int> insertion_sort() {
     for(auto it:arr)cout << it << ' ';
     return arr;
 } // stable and in_place
+// best omega(n) , avg theta(n^2) , worst o(n^2)
