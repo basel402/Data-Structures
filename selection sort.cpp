@@ -16,4 +16,4 @@ void selection_sort(){
         swap(v[i],v[mn]);
     }
     for(auto it:v)cout << it << ' ';
-}
+} // all cases n^2
