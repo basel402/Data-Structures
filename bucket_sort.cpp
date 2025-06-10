@@ -17,4 +17,4 @@ void bucketSort(float arr[], int n) {
             arr[index++] = b[i][j];
         }
     }
-}
+}// stable not inplace, best and avg n , worst n^2
