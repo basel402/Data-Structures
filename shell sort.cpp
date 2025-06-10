@@ -9,4 +9,4 @@ void shellSort(int array[], int n) {
       array[j] = temp;
     }
   }
-}
+} // not stable, in-place, best nlogn, avg n^1.5, worst n^2
