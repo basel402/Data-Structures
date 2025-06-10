@@ -38,4 +38,4 @@ void merge_sort(vector<ll>&v , ll l , ll r){
     merge_sort(v,l,mid);
     merge_sort(v,mid+1,r);
     merge(v,l,r,mid);
-}
+} // not inplace, stable, nlogn all cases
