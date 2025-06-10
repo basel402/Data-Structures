@@ -13,3 +13,4 @@ void bubble_sort(){
         cout << v[i] << endl;
     }
 } // in_place and stable
+// all cases n^2
