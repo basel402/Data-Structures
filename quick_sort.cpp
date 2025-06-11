@@ -1,24 +1,14 @@
-int partition(vector<int> &A, int left, int right) {
-
-        x ← A[left]
-    
-    i ← left
-    
-    for j ← left+1 to right
-    
-    if A[j] < x then
-    
-    i ← i + 1
-    
-    swap(A[i], A[j])
-    
-    end if
-    
-    end for j
-    
-    swap(A[i], A[left])
-    
-    return i
+int partition(vector<ll>&v, ll n, ll l, ll r){
+    ll piv = v[l];
+    int i = l;
+    for (int j = i+1; j < n ; ++j) {
+        if(v[j]<piv){
+            i++;
+            swap(v[i],v[j]);
+        }
+    }
+    swap(v[piv],piv);
+    return i;
 }
 
 void quickSort(vector<int> &vec, int low, int high) {
